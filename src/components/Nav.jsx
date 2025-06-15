@@ -1,11 +1,14 @@
+import Logo from "./Logo";
+import "./Nav.css";
+import Info from "./Info";
+
 function Nav() {
   return (
     <>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsam
-        officia, quia minima corporis ullam, quae delectus quidem eos harum
-        dicta, id unde!
-      </p>
+      <div className="">
+        <Logo />
+        <Info />
+      </div>
     </>
   );
 }
