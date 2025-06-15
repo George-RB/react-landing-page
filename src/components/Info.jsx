@@ -1,9 +1,7 @@
-import "./Info.css";
-
 function Info() {
   return (
     <>
-      <div className="text-blue-500">
+      <div>
         <p>Доставляем товары из заграницы в Россию</p>
         <p>Стоимость от 550 рублей за заказ</p>
         <p>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</p>

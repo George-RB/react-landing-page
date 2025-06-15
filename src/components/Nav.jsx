@@ -1,13 +1,12 @@
 import Logo from "./Logo";
-import "./Nav.css";
 import Info from "./Info";
 
 function Nav() {
   return (
     <>
-      <div className="">
-        <Logo />
-        <Info />
+      <div className="flex justify-between py-6">
+        <Logo className=" text-2xl" />
+        <Info className=" " />
       </div>
     </>
   );
